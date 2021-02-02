@@ -10,6 +10,18 @@ class emailHandler:
             smtp.starttls()
             smtp.ehlo()
             smtp.login(LOCAL_EMAIL, LOCAL_PASS)
-            subject = 'TradeBot'
+            subject = 'TradeBot Update'
             msg = f'Subject: {subject}\n\n{body}'
             smtp.sendmail(email, email, msg)
+
+
+class tradingBot:
+    def __init__(self, emailHandler):
+        self.emailHandler = emailHandler
+        self.email = 'grumblyguy@gmail.com'
+
+    def sendEmail(self, body):
+        self.emailHandler.sendEmail(self.email, body)
+     
+
+bot = tradingBot(emailHandler())
