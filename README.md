@@ -3,7 +3,7 @@ A prototype bot which takes in a strategy document and applies it to crypto exch
 
 Iteration 1
 
-[ ] GUI Set up /n
-[ ] GUI Layout in Python tkinter
-[ ] Implement Exchange API's (Btcmarkets)
-[ ] Parse Strategy code
+[ ] GUI Set up <br/>
+[ ] GUI Layout in Python tkinter <br/>
+[ ] Implement Exchange API's (Btcmarkets) <br/>
+[ ] Parse Strategy code <br/>
