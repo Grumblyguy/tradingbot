@@ -1,7 +1,7 @@
 import smtplib
 ## TODO Turn these into local environment variables
-LOCAL_PASS = 'dqjneidxxetuqrrh'
-LOCAL_EMAIL = "notifbot69420@gmail.com"
+LOCAL_PASS = ""
+LOCAL_EMAIL = ""
 
 class emailHandler:
     def sendEmail(self, email, body):
